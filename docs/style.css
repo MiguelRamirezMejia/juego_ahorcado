@@ -2,7 +2,11 @@
 * {
   box-sizing: border-box;
 }
+body{
+  background-color: rgb(201, 155, 247);
+}
 .main-container {
+  
   max-width: 800px;
   margin: auto;
 }
@@ -13,7 +17,7 @@ h1.titulo {
 }
 h1#msg-final {
   text-align: center;
-  color: crimson;
+  color: rgb(200, 20, 220);
   transition: all .5s ease;
   transform: scale(0);
   min-height: 50px;
@@ -31,10 +35,10 @@ h1#msg-final {
   animation: zoomInOut 1s ease;
 }
 .rojo {
-  color: red;
+  color: rgb(0, 98, 255);
 }
 .verde {
-  color: green;
+  color: rgb(0, 128, 34);
 }
 @keyframes zoomInOut {
   0% { transform: scale(0); }
@@ -62,14 +66,12 @@ h2.palabra {
   width: 50%;
   text-align: center;
 }
-.col span {
-  
-}
+
 #turnos h3 {
   margin: auto;
 }
 h3 span {
-   color: orangered;
+   color: rgb(255, 47, 0);
 }
 .letra:disabled {
   color:rgba(255, 0, 0, 0.5);
@@ -92,6 +94,6 @@ picture img {
   opacity: 1 !important;
 }
 .encuadre {
-  border: 2px dashed crimson;
+  border: 2px dashed rgb(190, 20, 220);
   padding: 3px 2px 2px 6px;
 }
